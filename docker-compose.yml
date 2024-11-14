@@ -8,8 +8,9 @@ services:
     env_file:
       - .env
     volumes:
-      - ./data:/app
+      - ./data:/app/data
       - ./bot_usage.log:/app/bot_usage.log
+
     # Ports können freigegeben werden, wenn nötig
     # ports:
     #   - "8443:8443"
